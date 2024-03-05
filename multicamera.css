@@ -6,20 +6,17 @@ html
 html, body, div, iframe 
 {
  margin-right: 10px;
- margin-left: 10px; 
- padding: 0px; 
- height: 100%; 
+ margin-left: 30px; 
+ padding: px; 
+ height: 70%;
  border: none;
-}
-
-.segundo {
-    margin-top: 50px;
 }
 
 iframe 
 {
- display: block; 
- width: 100%; 
+ display: inline-block; 
+ width: 31%; 
+ margin: auto;
  border: none; 
  overflow-y: auto; 
  overflow-x: hidden;
