@@ -10,7 +10,7 @@ html, body, iframe
  padding: px; 
  height: 70%;
  border: none;
- font-family: roboto-mono;
+ background-color: rgb(13, 17, 23);
 }
 
 iframe 
@@ -21,9 +21,4 @@ iframe
  border: none; 
  overflow-y: auto; 
  overflow-x: hidden;
-}
-
-header{
-    background-color: rgb(102, 102, 102);
-    margin-bottom: 20px;
 }
