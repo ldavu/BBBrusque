@@ -1,7 +1,12 @@
 from flask import Flask, render_template, request
-from usuarios import usuarios
 
 app = Flask(__name__)
+
+# Dicionário de usuários e senhas para fins de demonstração
+usuarios = {
+    'admin': 'admin',
+    'davi': 'davi'
+}
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
@@ -22,4 +27,4 @@ def login():
     return render_template('login.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
