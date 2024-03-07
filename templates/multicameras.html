@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multi cameras</title>
-    <link rel="shortcut icon" href="img/favicon.png"image/x-icon">
-    <link rel="stylesheet" href="multicamera.css">
+    <link rel="shortcut icon" href="img/favicon.png" image/x-icon">
     <script type="text/javascript" src="index.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
@@ -18,8 +17,32 @@
             margin-top: 3%;
             padding-bottom: 5px;
         }
+
         a {
             color: inherit
+        }
+
+        html {
+            overflow: auto;
+        }
+
+        html,
+        body,
+        iframe {
+            margin-right: 10px;
+            margin-left: 70px;
+            height: 72%;
+            border: none;
+            background-color: rgb(13, 17, 23);
+        }
+
+        iframe {
+            display: inline-block;
+            width: 33%;
+            margin: auto;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
         }
     </style>
 </head>
@@ -27,7 +50,7 @@
 <body>
 
     <iframe src="https://www.brusqueaovivo.com/embed/97fb23fa-4513-444c-b6a1-3137f1ec6a6c" frameborder="0"
-        marginheight="0"scrolling="auto"></iframe>
+        marginheight="0" scrolling="auto"></iframe>
 
     <iframe frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"
         src="https://www.brusqueaovivo.com/embed/9a4e9af6-e771-4050-9c82-2b9445b64db0"></iframe>
@@ -54,8 +77,12 @@
         src="https://www.brusqueaovivo.com/embed/9a90d084-7439-4e8e-9769-516046cd84d1"></iframe>
 
     <div class="footer">
-        <p class="footer-box">Desenvolvido por <a href=" https://github.com/ldavu" target="_blank">@ldavu</a> <t style="font-size: 14px;">&#9997</t> </p>
-        <p class="footer-box">API <a href=" https://www.instagram.com/bjnet/" target="_blank" >@bjnet</a> <t style="font-size: 14px;">&#128170</t> </p>
+        <p class="footer-box">Desenvolvido por <a href=" https://github.com/ldavu" target="_blank">@ldavu</a>
+            <t style="font-size: 14px;">&#9997</t>
+        </p>
+        <p class="footer-box">API <a href=" https://www.instagram.com/bjnet/" target="_blank">@bjnet</a>
+            <t style="font-size: 14px;">&#128170</t>
+        </p>
     </div>
 </body>
 
